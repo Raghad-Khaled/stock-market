@@ -1,0 +1,72 @@
+body{
+    font-family: 'Almarai', sans-serif;
+}
+.parallax {
+    /* The image used */
+     background-image: url("images/Ashm.jpg");
+    /* Set a specific height */
+    min-height: 550px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.411);
+
+}
+.circ {
+background-color: #523fb97d;
+border-radius: 50%;
+line-height: 150px;
+width: 180px;
+height: 180px;
+text-align: center;
+
+}
+
+.circ p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+ .flix{
+     display: flex;
+     justify-content: space-around;
+ } 
+
+ .sec1{
+  margin-top: 5%;
+  font-size: large;
+
+ }
+
+ .sec2{
+    margin-top: 7%;
+    font-size: large;
+    text-align: center;
+  
+   }
+
+.Go {
+    padding: 15px;
+    background-color: green;
+    width: 300px;
+    border-radius: 30px 30px;
+    color: white;
+    margin: auto;
+}   
+
+a{
+    text-decoration: none;
+}
+
+.QR{
+    width: 300px;
+    height: 300px;
+    border: 5px green;
+}
